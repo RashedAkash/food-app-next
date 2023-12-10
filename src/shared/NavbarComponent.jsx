@@ -4,17 +4,18 @@ import Image from "next/image";
 import { MagnifyingGlass } from "phosphor-react";
 import { Navbar, Button } from "keep-react";
 import Link from "next/link";
+import logo from '../../public/logo.jpeg'
 
 export const NavbarComponent = () => {
   return (
     <Navbar fluid={true}>
-      <Navbar.Container className="flex items-center justify-between">
+      <Navbar.Container className="flex items-center justify-between py-5">
         <Navbar.Container className="flex items-center">
           <Navbar.Brand>
             <Image
-              src="/images/keep.svg"
+              src={logo}
               alt="keep"
-              width="100"
+              width="70"
               height="40"
             />
           </Navbar.Brand>
