@@ -60,7 +60,7 @@ export const NavbarComponent = () => {
         <Navbar.Container className="flex gap-2">
           
           <Link href='/login'>
-           <Button size="sm" type="primary">
+           <Button size="sm" className=" bg-[#0fa968] text-white">
             Login
           </Button>
           </Link>
